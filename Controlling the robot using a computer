@@ -20,12 +20,12 @@ def stop(change):
     robot.stop()
     
 def step_forward(change):
-    robot.forward(0.4)
+    robot.forward(0.5)
     time.sleep(0.3)
     robot.stop()
 
 def step_backward(change):
-    robot.backward(0.4)
+    robot.backward(0.5)
     time.sleep(0.3)
     robot.stop()
 
